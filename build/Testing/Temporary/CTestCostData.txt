@@ -1,0 +1,16 @@
+ConfigTest.LoadValidFile 2 0.00284797
+ConfigTest.LoadNonExistentFile 2 0.00182325
+ConfigTest.GetTopLevelKeys 2 0.00269032
+ConfigTest.GetSectionKeys 2 0.00296057
+ConfigTest.DefaultValues 2 0.00258328
+ConfigTest.CommentHandling 2 0.00254013
+ConfigTest.WhitespaceTrimming 2 0.00398764
+ConfigTest.MalformedLines 2 0.00278784
+ConfigTest.EmptyFile 2 0.00428608
+ConfigTest.OnlyComments 2 0.00379659
+ConfigTest.Reloading 2 0.00305414
+ConfigTest.EmptySection 2 0.00227248
+ConfigTest.SpecialCharacters 2 0.00417248
+ConfigTest.EmptyValues 2 0.00267174
+ConfigTest.MultipleEqualsInValue 1 0.00789498
+---

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/iniconfig_tests.dir/test_iniconfig.cpp.o -o iniconfig_tests  ../src/libiniconfig.a ../lib/libgtest_main.a ../lib/libgtest.a 

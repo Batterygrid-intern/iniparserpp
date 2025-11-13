@@ -1,0 +1,2 @@
+/usr/bin/ar qc libiniconfig.a CMakeFiles/iniconfig.dir/iniConfig.cpp.o
+/usr/bin/ranlib libiniconfig.a

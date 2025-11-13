@@ -1,0 +1,408 @@
+Start testing: Nov 13 15:55 CET
+----------------------------------------------------------
+1/15 Testing: ConfigTest.LoadValidFile
+1/15 Test: ConfigTest.LoadValidFile
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.LoadValidFile" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.LoadValidFile" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.LoadValidFile
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.LoadValidFile
+[       OK ] ConfigTest.LoadValidFile (0 ms)
+[----------] 1 test from ConfigTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.LoadValidFile" end time: Nov 13 15:55 CET
+"ConfigTest.LoadValidFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/15 Testing: ConfigTest.LoadNonExistentFile
+2/15 Test: ConfigTest.LoadNonExistentFile
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.LoadNonExistentFile" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.LoadNonExistentFile" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.LoadNonExistentFile
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.LoadNonExistentFile
+[       OK ] ConfigTest.LoadNonExistentFile (0 ms)
+[----------] 1 test from ConfigTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.LoadNonExistentFile" end time: Nov 13 15:55 CET
+"ConfigTest.LoadNonExistentFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/15 Testing: ConfigTest.GetTopLevelKeys
+3/15 Test: ConfigTest.GetTopLevelKeys
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.GetTopLevelKeys" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.GetTopLevelKeys" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.GetTopLevelKeys
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.GetTopLevelKeys
+[       OK ] ConfigTest.GetTopLevelKeys (0 ms)
+[----------] 1 test from ConfigTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.GetTopLevelKeys" end time: Nov 13 15:55 CET
+"ConfigTest.GetTopLevelKeys" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/15 Testing: ConfigTest.GetSectionKeys
+4/15 Test: ConfigTest.GetSectionKeys
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.GetSectionKeys" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.GetSectionKeys" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.GetSectionKeys
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.GetSectionKeys
+[       OK ] ConfigTest.GetSectionKeys (0 ms)
+[----------] 1 test from ConfigTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.GetSectionKeys" end time: Nov 13 15:55 CET
+"ConfigTest.GetSectionKeys" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/15 Testing: ConfigTest.DefaultValues
+5/15 Test: ConfigTest.DefaultValues
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.DefaultValues" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.DefaultValues" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.DefaultValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.DefaultValues
+[       OK ] ConfigTest.DefaultValues (0 ms)
+[----------] 1 test from ConfigTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.DefaultValues" end time: Nov 13 15:55 CET
+"ConfigTest.DefaultValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/15 Testing: ConfigTest.CommentHandling
+6/15 Test: ConfigTest.CommentHandling
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.CommentHandling" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.CommentHandling" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.CommentHandling
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.CommentHandling
+[       OK ] ConfigTest.CommentHandling (0 ms)
+[----------] 1 test from ConfigTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.CommentHandling" end time: Nov 13 15:55 CET
+"ConfigTest.CommentHandling" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/15 Testing: ConfigTest.WhitespaceTrimming
+7/15 Test: ConfigTest.WhitespaceTrimming
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.WhitespaceTrimming" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.WhitespaceTrimming" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.WhitespaceTrimming
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.WhitespaceTrimming
+[       OK ] ConfigTest.WhitespaceTrimming (0 ms)
+[----------] 1 test from ConfigTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.WhitespaceTrimming" end time: Nov 13 15:55 CET
+"ConfigTest.WhitespaceTrimming" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/15 Testing: ConfigTest.MalformedLines
+8/15 Test: ConfigTest.MalformedLines
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.MalformedLines" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.MalformedLines" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.MalformedLines
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.MalformedLines
+[       OK ] ConfigTest.MalformedLines (0 ms)
+[----------] 1 test from ConfigTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.MalformedLines" end time: Nov 13 15:55 CET
+"ConfigTest.MalformedLines" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/15 Testing: ConfigTest.EmptyFile
+9/15 Test: ConfigTest.EmptyFile
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.EmptyFile" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.EmptyFile" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.EmptyFile
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.EmptyFile
+[       OK ] ConfigTest.EmptyFile (0 ms)
+[----------] 1 test from ConfigTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.EmptyFile" end time: Nov 13 15:55 CET
+"ConfigTest.EmptyFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/15 Testing: ConfigTest.OnlyComments
+10/15 Test: ConfigTest.OnlyComments
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.OnlyComments" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.OnlyComments" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.OnlyComments
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.OnlyComments
+[       OK ] ConfigTest.OnlyComments (0 ms)
+[----------] 1 test from ConfigTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.OnlyComments" end time: Nov 13 15:55 CET
+"ConfigTest.OnlyComments" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/15 Testing: ConfigTest.Reloading
+11/15 Test: ConfigTest.Reloading
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.Reloading" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.Reloading" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.Reloading
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.Reloading
+[       OK ] ConfigTest.Reloading (0 ms)
+[----------] 1 test from ConfigTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.Reloading" end time: Nov 13 15:55 CET
+"ConfigTest.Reloading" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/15 Testing: ConfigTest.EmptySection
+12/15 Test: ConfigTest.EmptySection
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.EmptySection" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.EmptySection" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.EmptySection
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.EmptySection
+[       OK ] ConfigTest.EmptySection (0 ms)
+[----------] 1 test from ConfigTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.EmptySection" end time: Nov 13 15:55 CET
+"ConfigTest.EmptySection" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/15 Testing: ConfigTest.SpecialCharacters
+13/15 Test: ConfigTest.SpecialCharacters
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.SpecialCharacters" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.SpecialCharacters" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.SpecialCharacters
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.SpecialCharacters
+[       OK ] ConfigTest.SpecialCharacters (0 ms)
+[----------] 1 test from ConfigTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.SpecialCharacters" end time: Nov 13 15:55 CET
+"ConfigTest.SpecialCharacters" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/15 Testing: ConfigTest.EmptyValues
+14/15 Test: ConfigTest.EmptyValues
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.EmptyValues" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.EmptyValues" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.EmptyValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.EmptyValues
+[       OK ] ConfigTest.EmptyValues (0 ms)
+[----------] 1 test from ConfigTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.EmptyValues" end time: Nov 13 15:55 CET
+"ConfigTest.EmptyValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/15 Testing: ConfigTest.MultipleEqualsInValue
+15/15 Test: ConfigTest.MultipleEqualsInValue
+Command: "/home/ludvig/ws/bgs-ws/iniparserpp/build/tests/iniconfig_tests" "--gtest_filter=ConfigTest.MultipleEqualsInValue" "--gtest_also_run_disabled_tests"
+Directory: /home/ludvig/ws/bgs-ws/iniparserpp/build/tests
+"ConfigTest.MultipleEqualsInValue" start time: Nov 13 15:55 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConfigTest.MultipleEqualsInValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConfigTest
+[ RUN      ] ConfigTest.MultipleEqualsInValue
+[       OK ] ConfigTest.MultipleEqualsInValue (1 ms)
+[----------] 1 test from ConfigTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigTest.MultipleEqualsInValue" end time: Nov 13 15:55 CET
+"ConfigTest.MultipleEqualsInValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 13 15:55 CET
