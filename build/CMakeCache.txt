@@ -15,7 +15,7 @@
 ########################
 
 //Builds the googlemock subproject
-BUILD_GMOCK:BOOL=ON
+BUILD_GMOCK:BOOL=OFF
 
 //Build shared libraries
 BUILD_SHARED_LIBS:BOOL=OFF
@@ -316,19 +316,7 @@ GTEST_HAS_ABSL:BOOL=OFF
 
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)
-INSTALL_GTEST:BOOL=ON
-
-//Value Computed by CMake
-gmock_BINARY_DIR:STATIC=/home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-build/googlemock
-
-//Value Computed by CMake
-gmock_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-gmock_SOURCE_DIR:STATIC=/home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-src/googlemock
-
-//Build all of Google Mock's own tests.
-gmock_build_tests:BOOL=OFF
+INSTALL_GTEST:BOOL=OFF
 
 //Value Computed by CMake
 googletest-distribution_BINARY_DIR:STATIC=/home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-build
@@ -512,7 +500,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -579,9 +567,6 @@ _Python3_INTERPRETER_SIGNATURE:INTERNAL=4c8bfa8951e99fa32e4000a94f8c04a2
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 cmake_package_name:INTERNAL=GTest
-generated_dir:INTERNAL=/home/ludvig/ws/bgs-ws/iniparserpp/build/_deps/googletest-build/googletest/generated
-//ADVANCED property for variable: gmock_build_tests
-gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples
 gtest_build_samples-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_tests
@@ -592,5 +577,4 @@ gtest_disable_pthreads-ADVANCED:INTERNAL=1
 gtest_force_shared_crt-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_hide_internal_symbols
 gtest_hide_internal_symbols-ADVANCED:INTERNAL=1
-targets_export_name:INTERNAL=GTestTargets
 

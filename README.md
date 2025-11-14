@@ -152,13 +152,9 @@ Retrieves a configuration value.
 - **CMake 3.16** or later (for building)
 
 ## License
-
-[Add your license here]
-
+...
 ## Contributing
-
-[Add contribution guidelines here]
-
+...
 ## Version
 
 Current version: **1.0.0**
