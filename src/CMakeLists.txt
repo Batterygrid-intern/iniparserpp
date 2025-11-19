@@ -8,13 +8,13 @@ add_library(iniconfig::iniconfig ALIAS iniconfig)
 set_target_properties(iniconfig PROPERTIES
     VERSION ${PROJECT_VERSION}
     SOVERSION ${PROJECT_VERSION_MAJOR}
-    PUBLIC_HEADER ${CMAKE_SOURCE_DIR}/include/iniConfig.hpp
+    PUBLIC_HEADER ${PROJECT_SOURCE_DIR}/include/iniConfig.hpp
 )
 
 # Configure include directories
 target_include_directories(iniconfig
     PUBLIC
-        $<BUILD_INTERFACE:${CMAKE_SOURCE_DIR}/include>
+        $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
 )
 
